@@ -7,7 +7,7 @@
 </head>
 
 <body>
-       <form action="/accio.php">
+       <form action="/accio.php" method="post">
 		   <label for="name" >Name</label>
 		   <input type="text" id="name" placeholder="Name" >
 		   <br>
@@ -32,11 +32,11 @@
 		   <br>
 		   <br>
 		   <label for="dob" >DOB</label>
-		   <input type="date" id="date" required />
+		   <input type="date" id="dob" required />
 		   <br>
 		   <br>
 		   <label for="tel" >Phone Number</label>
-		   <input type="tel" id="age" placeholder="xxx-xxx-xxxx" />
+		   <input type="tel" id="tel" placeholder="xxx-xxx-xxxx" />
 		   <br>
 		   <br>
 		   <label for="age" >Age</label>
@@ -48,7 +48,8 @@
 		   <br>
 		   <br>
 		   <label for="tos" >I agree to the TOS</label>
-		   <input type="checkbox" id="tos" required />
+		   <input type="checkbox" id="tos" required /><br><br>
+		   <button type="submit" value="Submit">Submit</button>
 	   </form>
 
 	
